@@ -68,3 +68,24 @@ This repository is for the mentor-led project where we are building an e-commerc
 5. **Role of the Login Page**
     -The Login Page is the starting point for user authentication in the e-commerce application.
     -Validates user input and prepares for integration with backend APIs for authentication.
+
+
+## Milestone 3: Project Setup for Backend
+
+### What Was Achieved
+- **MongoDB Setup**:
+  - Connected to MongoDB Atlas with a cluster created using GitHub authentication.
+  - Configured the database user and network access.
+- **Backend Folder Structure**:
+  - Organized backend into `config`, `routes`, and `models`.
+- **Server Setup**:
+  - Built a Node.js server using Express.js.
+  - Configured dotenv for environment variables.
+- **Database Connection**:
+  - Established a connection to MongoDB using Mongoose.
+- **Error Handling**:
+  - Added middleware for basic error handling.
+
+### Key Features
+- Fully functional Express server running on port 5000.
+- API endpoint `/api/users` that responds with a test message.
