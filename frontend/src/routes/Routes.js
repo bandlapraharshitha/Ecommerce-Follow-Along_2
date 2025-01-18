@@ -1,3 +1,4 @@
 import LoginPage from "../pages/LoginPage";
-import Login from "../components/auth/Login";
-export {Login,LoginPage}
+import SignUpPage from "../pages/SignUpPage";
+import Login from "../components/Auth/Login";
+export {Login,LoginPage,SignUpPage };

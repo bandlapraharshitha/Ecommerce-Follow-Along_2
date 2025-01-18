@@ -89,3 +89,53 @@ This repository is for the mentor-led project where we are building an e-commerc
 ### Key Features
 - Fully functional Express server running on port 5000.
 - API endpoint `/api/users` that responds with a test message.
+
+
+
+## **Milestone 5: Creating the Sign-Up Page**
+
+## **Project Description**
+- This milestone focused on adding a functional and user-friendly Sign-Up Page to the frontend of the e-commerce application.
+- The goal was to allow new users to register by entering their details, such as name, email, and password, while ensuring proper validation of inputs.
+- This milestone built upon the existing structure established in previous milestones, utilizing the MERN stack, Tailwind CSS, and React Router.
+
+### **What We Covered in the Session**
+1. **Enhancing the Frontend**
+   - Added a **Sign-Up Page** component to the frontend:
+     - Includes input fields for **Name**, **Email**, and **Password**.
+     - Styled the form using **Tailwind CSS** for responsiveness and a modern look.
+     - Included a navigation link on the Login Page to redirect users to the Sign-Up Page.
+
+2. **Form Validation**
+   - Implemented basic validation to ensure:
+     - Name is not empty.
+     - Email is in a valid format (e.g., `example@domain.com`).
+     - Password meets security requirements (e.g., minimum length).
+   - Form validation prevents invalid data from being submitted to the server.
+
+3. **React Router Integration**
+   - Added a new route (`/sign-up`) in the application for the Sign-Up Page.
+   - Ensured smooth navigation between the Login Page and the Sign-Up Page via the "Sign Up" button/link.
+
+4. **Updating the App Structure**
+   - Created a new component: `SignUp.jsx` (in the `components/Auth` folder) for the Sign-Up Page.
+   - Updated the `Routes.js` file to include the new `/sign-up` route.
+   - Updated the `App.jsx` file to render the Sign-Up Page as part of the application's routing.
+
+5. **Importance of the Sign-Up Page**
+   - The Sign-Up Page is crucial for user onboarding in the e-commerce application.
+   - Provides a secure and clean interface for users to create an account.
+   - Prepares for future backend integration to store and verify user data.
+
+### **Steps Completed**
+- Built a responsive Sign-Up Page with Tailwind CSS.
+- Implemented form validation to ensure accurate user input.
+- Integrated the Sign-Up Page with the existing application via React Router.
+- Updated the Login Page to include a link to navigate to the Sign-Up Page.
+
+### **Future Steps**
+- Integrate the Sign-Up form with backend APIs for user registration.
+- Enhance form validation with additional checks (e.g., password strength, email uniqueness).
+- Add unit tests to ensure the functionality of the Sign-Up form.
+
+---
