@@ -10,7 +10,7 @@ In this session, we focused on the foundational elements of the Ecommerce-Follow
 ### 1. Project Setup
    - We initialized the GitHub repository and set up the basic structure for our application.
 
-### 2. Technology Stack
+### 2. Tech Stack
    - An overview of the technologies that will be utilized throughout the project:
      - Node.js: JavaScript runtime for the back-end.
      - Express.js: Web framework for building the back-end API.
